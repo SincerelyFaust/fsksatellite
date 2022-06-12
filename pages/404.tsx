@@ -11,7 +11,7 @@ const Error404: NextPage = () => {
         <title>FSK Satellite - 404 Error</title>
       </Head>
       <div>
-        <main className="flex min-h-screen flex-col justify-between">
+        <main className="flex min-h-screen flex-col justify-between mb-auto">
           <div className="mb-20">
             <Navbar />
           </div>

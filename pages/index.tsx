@@ -22,7 +22,7 @@ const Index: NextPage = () => {
             <Navbar />
           </div>
           {windowSize >= 1075 ? (
-            <div className="flex flex-row bg-sudditaliano max-w-full max-h-fit p-20 mb-20 mx-44 justify-between bg-no-repeat bg-cover bg-center flex-wrap shadow-2xl xl:bg-sudditaliano-xl shadow-black gap-y-10 xl:justify-center lg:mx-22 md:mx-14 sm:mx-6">
+            <div className="flex flex-row bg-sudditaliano max-w-full max-h-fit p-20 mb-auto mx-44 justify-between bg-no-repeat bg-cover bg-center flex-wrap shadow-2xl xl:bg-sudditaliano-xl shadow-black gap-y-10 xl:justify-center lg:mx-22 md:mx-14 sm:mx-6">
               <img
                 src="/logo/fsk.webp"
                 className="max-w-xl min-w-0 2xl:max-w-md"
