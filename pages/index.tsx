@@ -19,7 +19,7 @@ const Index: NextPage = () => {
       </Head>
       <div>
         <main className="flex min-h-screen flex-col overflow-hidden">
-          <div className="mb-20">
+          <div>
             <Navbar />
           </div>
           <div>
