@@ -6,7 +6,7 @@ export default class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <title>FSK Satellite</title>
-          <link rel="icon" href="/fsk.webp" />
+          <link rel="icon" href="/logo/fsk.webp" />
           <meta name="description" content="FSK Satellite" />
           <meta property="og:title" content="FSK Satellite" key="title" />
           <meta
