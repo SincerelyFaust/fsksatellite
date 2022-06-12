@@ -46,12 +46,12 @@ const Index: NextPage = () => {
               </div>
             </div>
           ) : (
-            <div className="flex flex-row bg-sudditaliano max-w-full max-h-fit p-20 mb-20 justify-between bg-no-repeat bg-cover bg-center flex-wrap shadow-2xl shadow-black xl:bg-sudditaliano-xl gap-y-10">
+            <div className="flex flex-row bg-sudditaliano max-w-full max-h-fit p-20 mb-20 justify-center bg-no-repeat bg-cover bg-center flex-wrap shadow-2xl shadow-black xl:bg-sudditaliano-xl gap-y-10">
               <img
                 src="/logo/fsk.webp"
                 className="max-w-xl min-w-0 2xl:max-w-md"
               ></img>
-              <div className="flex flex-col items-start justify-evenly max-w-lg min-w-0">
+              <div className="flex flex-col justify-center gap-12 max-w-lg min-w-0 items-center text-center">
                 <h1 className="text-red-600 text-9xl md:text-7xl 2xl:text-8xl font-swampwitch">
                   FSK Satellite
                 </h1>
