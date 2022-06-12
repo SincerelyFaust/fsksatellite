@@ -9,19 +9,19 @@ module.exports = {
         swampwitch: ["SwampWitch", "cursive"],
       },
       screens: {
-        '2xl': {'max': '1620px'},
-        'xl': {'max': '1482px'},
-        'lg': {'max': '1025px'},
-        'md': {'max': '968px'},
-        'sm': {'max': '740px'},
+        "2xl": { max: "1620px" },
+        "xl": { max: "1482px" },
+        "lg": { max: "1025px" },
+        "md": { max: "968px" },
+        "sm": { max: "740px" },
       },
       backgroundImage: {
-        'sudditaliano': 
+        "sudditaliano":
           "linear-gradient(to left, rgba(0, 0, 0, 0.9) 35%, rgba(0, 0, 0, 0)), url(/photos/sudditaliano.webp)",
-          'sudditaliano-xl': 
+        "sudditaliano-xl":
           "linear-gradient(to top, rgba(0, 0, 0, 0.9) 35%, rgba(0, 0, 0, 0)), url(/photos/sudditaliano.webp)",
       },
     },
   },
   plugins: [],
-}
+};
