@@ -12,7 +12,7 @@ const Index: NextPage = () => {
         <title>FSK Satellite</title>
       </Head>
       <div>
-        <main className="flex min-h-screen flex-col overflow-hidden">
+        <main className="flex min-h-screen flex-col overflow-hidden justify-between">
           <div>
             <Navbar />
           </div>
