@@ -6,12 +6,12 @@ export default class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <title>FSK Satellite</title>
-          <link rel="icon" href="/logo/fsk.webp" />
+          <link rel="icon" href="/logo/fsk-bg-white.webp" />
           <meta name="description" content="FSK Satellite" />
           <meta property="og:title" content="FSK Satellite" key="title" />
           <meta
             name="keywords"
-            content="fsk, satellite, fsksatellite, sapobully, chiello, taxi b, ollare"
+            content="fsk, satellite, fsksatellite, sapobully, chiello, taxi b, ollare, fsk website, fsk satellite website, greg willen, fsk satellite"
           />
           <meta name="description" content="FSK Satellite" />
           <meta name="og:description" content="FSK Satellite" />

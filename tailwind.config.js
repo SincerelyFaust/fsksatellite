@@ -10,7 +10,7 @@ module.exports = {
       },
       screens: {
         "2xl": { max: "1620px" },
-        "xl": { max: "1482px" },
+        "xl": { max: "1486px" },
         "lg": { max: "1025px" },
         "md": { max: "968px" },
         "sm": { max: "740px" },
