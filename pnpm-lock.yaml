@@ -16,14 +16,14 @@ specifiers:
   postcss: ^8.4.14
   prettier: ^2.7.1
   react: 18.2.0
-  react-dom: 18.1.0
+  react-dom: 18.2.0
   tailwindcss: ^3.1.3
   typescript: 4.7.4
 
 dependencies:
-  next: 12.1.6_3cfkrkynzts6qfsozcm5ednswi
+  next: 12.1.6_biqbaboplfbrettd7655fr4n2y
   react: 18.2.0
-  react-dom: 18.1.0_react@18.2.0
+  react-dom: 18.2.0_react@18.2.0
 
 devDependencies:
   '@types/node': 18.0.0
@@ -816,7 +816,7 @@ packages:
       eslint-plugin-jsx-a11y: 6.5.1_eslint@8.18.0
       eslint-plugin-react: 7.30.0_eslint@8.18.0
       eslint-plugin-react-hooks: 4.6.0_eslint@8.18.0
-      next: 12.1.6_3cfkrkynzts6qfsozcm5ednswi
+      next: 12.1.6_biqbaboplfbrettd7655fr4n2y
       typescript: 4.7.4
     transitivePeerDependencies:
       - eslint-import-resolver-webpack
@@ -1583,7 +1583,7 @@ packages:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
     dev: true
 
-  /next/12.1.6_3cfkrkynzts6qfsozcm5ednswi:
+  /next/12.1.6_biqbaboplfbrettd7655fr4n2y:
     resolution: {integrity: sha512-cebwKxL3/DhNKfg9tPZDQmbRKjueqykHHbgaoG4VBRH3AHQJ2HO0dbKFiS1hPhe1/qgc2d/hFeadsbPicmLD+A==}
     engines: {node: '>=12.22.0'}
     hasBin: true
@@ -1605,7 +1605,7 @@ packages:
       caniuse-lite: 1.0.30001355
       postcss: 8.4.5
       react: 18.2.0
-      react-dom: 18.1.0_react@18.2.0
+      react-dom: 18.2.0_react@18.2.0
       styled-jsx: 5.0.2_react@18.2.0
     optionalDependencies:
       '@next/swc-android-arm-eabi': 12.1.6
@@ -1900,14 +1900,14 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /react-dom/18.1.0_react@18.2.0:
-    resolution: {integrity: sha512-fU1Txz7Budmvamp7bshe4Zi32d0ll7ect+ccxNu9FlObT605GOEB8BfO4tmRJ39R5Zj831VCpvQ05QPBW5yb+w==}
+  /react-dom/18.2.0_react@18.2.0:
+    resolution: {integrity: sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==}
     peerDependencies:
-      react: ^18.1.0
+      react: ^18.2.0
     dependencies:
       loose-envify: 1.4.0
       react: 18.2.0
-      scheduler: 0.22.0
+      scheduler: 0.23.0
 
   /react-is/16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
@@ -1989,8 +1989,8 @@ packages:
       queue-microtask: 1.2.3
     dev: true
 
-  /scheduler/0.22.0:
-    resolution: {integrity: sha512-6QAm1BgQI88NPYymgGQLCZgvep4FyePDWFpXVK+zNSUgHwlqpJy8VEh8Et0KxTACS4VWwMousBElAZOH9nkkoQ==}
+  /scheduler/0.23.0:
+    resolution: {integrity: sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==}
     dependencies:
       loose-envify: 1.4.0
 
