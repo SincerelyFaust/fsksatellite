@@ -10,10 +10,10 @@ jobs:
       pull-requests: write
       contents: write
     steps:
-    - uses: pnpm/action-setup@v2
+    - uses: pnpm/action-setup@v2.2.2
       with:
-        version: ^6
-    - uses: actions/checkout@v2
+        version: ^7
+    - uses: actions/checkout@v3.0.2
       with:
         ref: ${{ github.event.pull_request.head.ref }}
     - run: pnpm i --lockfile-only
