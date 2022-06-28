@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Intro = () => {
-  const [windowSize, setWindowSize] = useState<number>(0);
+  const [windowSize, setWindowSize] = useState(0);
 
   useEffect(() => {
     setWindowSize(window.innerWidth);
@@ -30,12 +31,11 @@ const Intro = () => {
               Sapobully, Chiello and Greg Willen. The group started out back in
               2017 and has released 2 albums before disassembling in 2021.
             </p>
-            <a
-              href="#history"
-              className="text-center text-white bg-red-600 px-8 py-3 2xl:px-6 md:px-2"
-            >
-              Learn more
-            </a>
+            <Link href="#history">
+              <a className="text-center text-white bg-red-600 px-8 py-3 2xl:px-6 md:px-2">
+                Learn more
+              </a>
+            </Link>
           </div>
         </div>
       ) : (
