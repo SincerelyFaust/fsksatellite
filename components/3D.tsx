@@ -21,10 +21,10 @@ export function FSK(props: JSX.IntrinsicElements["group"]) {
   return (
     <group {...props} dispose={null}>
       <mesh
-        castShadow
-        receiveShadow
         geometry={nodes.Layer_1.geometry}
         material={materials["Layer 1 Merged Material"]}
+        position={[0, 0.45, 0]}
+        scale={0.5}
       />
     </group>
   );
