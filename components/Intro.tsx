@@ -51,6 +51,7 @@ const R3F = () => {
               autoRotate={true}
               autoRotateSpeed={8}
               makeDefault={true}
+              enablePan={false}
             />
           </Canvas>
         </div>
