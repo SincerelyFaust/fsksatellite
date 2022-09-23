@@ -4,8 +4,19 @@
 
 import * as THREE from "three";
 import React from "react";
-import { useGLTF } from "@react-three/drei";
+import { useGLTF, Html, useProgress } from "@react-three/drei";
 import { GLTF } from "three-stdlib";
+
+export function Loader() {
+  const { progress } = useProgress();
+  return (
+    <Html center>
+      <p className="font-swampwitch text-3xl text-red-600">
+        {progress}% loaded
+      </p>
+    </Html>
+  );
+}
 
 type GLTFResult = GLTF & {
   nodes: {
