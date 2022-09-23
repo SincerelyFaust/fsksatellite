@@ -69,9 +69,11 @@ const R3F = () => {
           >
             <pointLight position={[100, 100, 100]} />
             <ambientLight />
-            <Bounds fit clip observe margin={1.2}>
-              <FSK />
-            </Bounds>
+            <Suspense fallback={<Loader />}>
+              <Bounds fit clip observe margin={1.2}>
+                <FSK />
+              </Bounds>
+            </Suspense>
             <OrbitControls
               enableZoom={false}
               rotateSpeed={0.5}
