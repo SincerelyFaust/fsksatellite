@@ -5,9 +5,10 @@
 import type { NextPage } from "next";
 import { Canvas } from "@react-three/fiber";
 import { Bounds, OrbitControls } from "@react-three/drei";
-import React, { Suspense, useEffect, useState } from "react";
+import React, { Suspense } from "react";
 import Navbar from "../components/Navbar";
 import { FSK, Loader } from "./3D";
+import useMediaQuery from "../utils/hooks/useMediaQuery";
 
 // DOM components
 const DOM = () => {
@@ -22,15 +23,11 @@ const DOM = () => {
 
 // Canvas components
 const R3F = () => {
-  const [windowSize, setWindowSize] = useState(0);
-
-  useEffect(() => {
-    setWindowSize(window.innerWidth);
-  }, []);
+  const isWindowSizeSmall = useMediaQuery("(max-width: 1075px)");
 
   return (
     <div className="flex h-screen">
-      {windowSize >= 1075 ? (
+      {!isWindowSizeSmall ? (
         <div className="w-5/12 h-5/6 relative m-auto">
           <Canvas
             style={{

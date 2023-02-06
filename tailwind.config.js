@@ -16,6 +16,12 @@ module.exports = {
         "md": { max: "968px" },
         "sm": { max: "740px" },
       },
+      fontSize: {
+        "10xl": "13rem",
+      },
+      boxShadow: {
+        red: "10px 10px red",
+      },
     },
   },
   plugins: [],

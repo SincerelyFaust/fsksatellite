@@ -2,9 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: "SwampWitch";
-  src: url("../public/fonts/SwampWitch.ttf");
+@layer base {
+  @font-face {
+    font-family: "SwampWitch";
+    src: url("../public/fonts/SwampWitch.ttf");
+  }
 }
 
 html {
